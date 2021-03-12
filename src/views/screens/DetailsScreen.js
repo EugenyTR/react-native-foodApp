@@ -12,7 +12,7 @@ const DetailsScreen = ({navigation, route}) => {
     <SafeAreaView style={{backgroundColor: COLORS.white}}>
       <View style={style.header}>
         <Icon name="arrow-back-ios" size={28} onPress={navigation.goBack} />
-        <Text style={{fontSize: 20, fontWeight: 'bold'}}>Details</Text>
+        <Text style={{fontSize: 20, fontWeight: 'bold'}}>Подробности</Text>
       </View>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View
@@ -46,7 +46,7 @@ const DetailsScreen = ({navigation, route}) => {
             only five centuries.
           </Text>
           <View style={{marginTop: 40, marginBottom: 40}}>
-            <SecondaryButton title="Add To Cart" />
+            <SecondaryButton title="Добавить в корзину" />
           </View>
         </View>
       </ScrollView>

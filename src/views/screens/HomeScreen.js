@@ -106,13 +106,13 @@ const HomeScreen = ({navigation}) => {
       <View style={style.header}>
         <View>
           <View style={{flexDirection: 'row'}}>
-            <Text style={{fontSize: 28}}>Hello,</Text>
+            <Text style={{fontSize: 28}}>Привет,</Text>
             <Text style={{fontSize: 28, fontWeight: 'bold', marginLeft: 10}}>
-              Ariz
+              Гость
             </Text>
           </View>
           <Text style={{marginTop: 5, fontSize: 22, color: COLORS.grey}}>
-            What do you want today
+            Что ты хочешь сегодня
           </Text>
         </View>
         <Image
@@ -130,7 +130,7 @@ const HomeScreen = ({navigation}) => {
           <Icon name="search" size={28} />
           <TextInput
             style={{flex: 1, fontSize: 18}}
-            placeholder="Search for food"
+            placeholder="Поиск еды"
           />
         </View>
         <View style={style.sortBtn}>

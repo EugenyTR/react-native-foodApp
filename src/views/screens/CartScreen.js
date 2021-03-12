@@ -38,7 +38,7 @@ const CartScreen = ({navigation}) => {
     <SafeAreaView style={{backgroundColor: COLORS.white, flex: 1}}>
       <View style={style.header}>
         <Icon name="arrow-back-ios" size={28} onPress={navigation.goBack} />
-        <Text style={{fontSize: 20, fontWeight: 'bold'}}>Cart</Text>
+        <Text style={{fontSize: 20, fontWeight: 'bold'}}>Корзина</Text>
       </View>
       <FlatList
         showsVerticalScrollIndicator={false}
@@ -55,12 +55,12 @@ const CartScreen = ({navigation}) => {
                 marginVertical: 15,
               }}>
               <Text style={{fontSize: 18, fontWeight: 'bold'}}>
-                Total Price
+                Сумма
               </Text>
-              <Text style={{fontSize: 18, fontWeight: 'bold'}}>$50</Text>
+              <Text style={{fontSize: 18, fontWeight: 'bold'}}>1100 руб.</Text>
             </View>
             <View style={{marginHorizontal: 30}}>
-              <PrimaryButton title="CHECKOUT" />
+              <PrimaryButton title="Оформить" />
             </View>
           </View>
         )}
